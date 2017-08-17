@@ -1,0 +1,11 @@
+<ul class="navigation">
+    {{#foreach navigation}}
+    <li class="navigation-item{{#if current}} current-navigation-item{{/if}} {{slug}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
+	<li class = "navigation-item"> <a href ="/tag/Planting/">Planting</a></li>
+	<li class = "navigation-item"> <a href ="/tag/Growing/">Growing</a></li>
+	<li class = "navigation-item"> <a href ="/tag/Harvesting/">Harvesting</a></li>
+	<li class = "navigation-item"> <a href ="/tag/Cleaning/">Cleaning</a></li>
+	<li class = "navigation-item"> <a href ="/tag/Drying/">Drying</a></li>
+	<li class = "navigation-item"> <a href ="/tag/Milling/">Milling</a></li>
+    {{/foreach}}
+</ul>
